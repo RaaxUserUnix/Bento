@@ -11,8 +11,8 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
-	imageBackground: false,
+	name: 'Sonrie',
+	imageBackground: true,
 	openInNewTab: true,
 	twelveHourFormat: false,
 
@@ -23,11 +23,11 @@ const CONFIG = {
 	greetingNight: 'Go to Sleep!',
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'buttons', // 'bento', 'lists', 'buttons'
 
 	// Weather
 	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
+	weatherIcons: 'Nord', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
@@ -39,10 +39,10 @@ const CONFIG = {
 	autoChangeTheme: true,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
-	changeThemeByHour: false,
+	changeThemeByHour: true,
 	hourDarkThemeActive: '18:30',
 	hourDarkThemeInactive: '07:00',
 
@@ -65,15 +65,15 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'Notion',
+			icon: 'sunrise',
+			link: 'https://notion.com',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			name: 'Discord',
+			icon: 'globe',
+			link: 'https://discord.com/app',
 		},
 		{
 			id: '5',
@@ -139,20 +139,20 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Jazz',
+					link: 'https://open.spotify.com/playlist/37i9dQZF1E4s9Zdd2d0BTE?si=c26e2cffee44454b',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Chillout',
+					link: 'https://open.spotify.com/playlist/37i9dQZF1E4tk1IATcilfM?si=0ce91e9cf932403f',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'All in',
+					link: 'https://open.spotify.com/playlist/14wipz3Up0Xumn1mHf7DRA?si=d73ba1d2dbfe4fa8',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Morning',
+					link: 'https://open.spotify.com/playlist/5QVQpZTgP7VihQcocSY8Hl?si=1edde67c236241b6',
 				},
 			],
 		},
